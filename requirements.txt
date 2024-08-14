@@ -1,0 +1,11 @@
+argh==0.31.2
+numpy==1.26.4
+pandas==2.2.1
+ray[tune]==2.10.0
+recbole==1.2.0
+tqdm==4.66.2
+kmeans_pytorch==0.3
+chardet==5.2.0
+matplotlib==3.8.3
+seaborn==0.13.2
+jupyter==1.0.0
