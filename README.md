@@ -70,7 +70,7 @@ A valid example setup can be found under `experiments/example`
 
 ## Usage
 ### Full Simulation Run
-`python3 manage.py run_loop.py -n 10 --dataset example --model ItemKNN --choice-model rank_based --config recbole_config_default.yml`
+`python3 run_loop.py -n 10 --dataset example --model ItemKNN --choice-model rank_based --config recbole_config_default.yml`
 
 | Option         | Description                                                                                                                                                                     |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
