@@ -1,6 +1,8 @@
 # Feedback Loop Simulation Framework for Recommender Systems
 This repository hosts the code and the additional materials for the paper "Oh, Behave! Country Representation Dynamics Created by Feedback Loops in Music Recommender Systems" by [Oleg Lesota](mailto:oleg.lesota@jku.at), [Jonas Geiger](mailto:jonasgeiger@outlook.de), [Max Walder](mailto:max@gstat.eu), Dominik Kowald and Markus Schedl (to be) published at RecSys 2024.
 
+Pre-print: [https://arxiv.org/abs/2408.11565](https://arxiv.org/abs/2408.11565)
+
 This framework allows to simulate closed feedback loops using the [RecBole](https://recbole.io) library. The repository includes multiple user choice models, an example dataset as well as evaluation and plotting utilities. Please refer to the paper for more. The data and models used in the paper are available on demand via an email to [Oleg Lesota](mailto:oleg.lesota@jku.at).
 
 ## Installation
