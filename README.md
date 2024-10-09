@@ -14,7 +14,11 @@ url = {https://doi.org/10.1145/3640457.3688187},
 doi = {10.1145/3640457.3688187},
 abstract = {Recent work suggests that music recommender systems are prone to disproportionally frequent recommendations of music from countries more prominently represented in the training data, notably the US. However, it remains unclear to what extent feedback loops in music recommendation influence the dynamics of such imbalance. In this work, we investigate the dynamics of representation of local (i.e., country-specific) and US-produced music in user profiles and recommendations. To this end, we conduct a feedback loop simulation study using the LFM-2b dataset. The results suggest that most of the investigated recommendation models decrease the proportion of music from local artists in their recommendations. Furthermore, we find that models preserving average proportions of US and local music do not necessarily provide country-calibrated recommendations. We also look into popularity calibration and, surprisingly, find that the most popularity-calibrated model in our study (ItemKNN) provides the least country-calibrated recommendations. In addition, users from less represented countries (e.g., Finland) are, in the long term, most affected by the under-representation of their local music in recommendations.},
 booktitle = {Proceedings of the 18th ACM Conference on Recommender Systems},
-pages = {1022–1027}, numpages = {6}, keywords = {Demographic Bias, Feedback Loop, Music Recommendation}, location = {Bari, Italy}, series = {RecSys '24} }
+pages = {1022–1027},
+numpages = {6},
+keywords = {Demographic Bias, Feedback Loop, Music Recommendation},
+location = {Bari, Italy},
+series = {RecSys '24}}
 ```
 
 This framework allows to simulate closed feedback loops using the [RecBole](https://recbole.io) library. The repository includes multiple user choice models, an example dataset as well as evaluation and plotting utilities. Please refer to the paper for more. The data and models used in the paper are available on demand via an email to [Oleg Lesota](mailto:oleg.lesota@jku.at).
